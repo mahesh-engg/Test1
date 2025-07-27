@@ -13,6 +13,7 @@ import FloatingButton from './FloatingButton';
 import FloatingHomeVisitButton from './FloatingHomeVisitButton';
 import Footer from './Footer';
 import './App.css';
+import './MobileResponsive.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('profile');

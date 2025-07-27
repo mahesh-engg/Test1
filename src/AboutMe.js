@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
+import './AboutMe.mobile.css';
 
 const AboutMe = () => {
   return (

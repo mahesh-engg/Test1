@@ -1,5 +1,6 @@
 import React from 'react';
 import './DoctorProfile.css';
+import './DoctorProfile.mobile.css';
 
 const DoctorProfile = () => {
   return (

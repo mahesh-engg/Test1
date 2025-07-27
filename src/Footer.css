@@ -145,3 +145,51 @@
   transform: scale(1.2) skew(10deg);
   box-shadow: 0 0 15px rgba(0, 119, 181, 0.6);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 0.4rem 0;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 0.8rem;
+    text-align: center;
+    padding: 0 0.5rem;
+  }
+  
+  .footer p {
+    font-size: 0.7rem;
+  }
+  
+  .footer-right {
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .footer-links {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-links a {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+  
+  .social-icons {
+    gap: 0.5rem;
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    padding: 0.2rem;
+  }
+  
+  .social-icon img {
+    width: 16px;
+    height: 16px;
+  }
+}

@@ -36,18 +36,42 @@
   text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
+@media (max-width: 768px) {
+  .floating-home-visit-btn {
+    bottom: 130px;
+    left: 10px;
+    padding: 0.6rem 1rem;
+    font-size: 0.75rem;
+    max-width: 150px;
+    border-radius: 20px;
+  }
+  
+  .home-visit-icon {
+    font-size: 0.9rem;
+  }
+  
+  .home-visit-text {
+    font-size: 0.75rem;
+  }
+}
+
 
 
 @media (max-width: 768px) {
   .floating-home-visit-btn {
-    bottom: 180px;
-    left: 15px;
-    padding: 0.8rem 1.2rem;
-    font-size: 0.8rem;
-    max-width: 180px;
+    bottom: 130px;
+    left: 10px;
+    padding: 0.6rem 1rem;
+    font-size: 0.75rem;
+    max-width: 150px;
+    border-radius: 20px;
   }
   
   .home-visit-icon {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .home-visit-text {
+    font-size: 0.75rem;
   }
 }

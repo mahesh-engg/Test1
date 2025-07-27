@@ -1,5 +1,6 @@
 import React from 'react';
 import './Services.css';
+import './Services.mobile.css';
 
 const Services = () => {
   return (

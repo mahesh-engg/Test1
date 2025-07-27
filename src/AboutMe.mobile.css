@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+  .about-container {
+    top: 140px;
+    bottom: 80px;
+    padding: 0.5rem;
+  }
+  
+  .about-content {
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .about-header {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .doctor-photo {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    min-width: auto;
+    width: 100%;
+  }
+  
+  .intro h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .intro p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .about-sections {
+    gap: 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  .section {
+    padding: 1.2rem;
+    border-radius: 12px;
+  }
+  
+  .section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .section li {
+    font-size: 0.85rem;
+    padding: 0.4rem 0;
+  }
+  
+  .mission-vision {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .mission,
+  .vision {
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .mission h3,
+  .vision h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .personal-note {
+    border-radius: 12px;
+  }
+  
+  .personal-note p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 0.3rem;
+    top: 120px;
+  }
+  
+  .about-header {
+    padding: 1rem;
+  }
+  
+  .doctor-photo {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+  
+  .intro h2 {
+    font-size: 1.2rem;
+  }
+  
+  .intro p {
+    font-size: 0.85rem;
+  }
+  
+  .section {
+    padding: 1rem;
+  }
+  
+  .section h3 {
+    font-size: 1rem;
+  }
+}

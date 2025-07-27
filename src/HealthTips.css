@@ -1,0 +1,98 @@
+.health-tips-container {
+  position: fixed;
+  top: 70px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=800&fit=crop') center/cover;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.health-tips-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.health-tips-content h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.tip-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #27ae60;
+  transition: transform 0.2s;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+}
+
+.tip-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tip-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tip-card li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ecf0f1;
+  color: #555;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.tip-card li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.tip-card li:last-child {
+  border-bottom: none;
+}
+
+.disclaimer {
+  background: linear-gradient(135deg, #e8f5e8, #d5f4e6);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #e74c3c;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.disclaimer p {
+  color: #2c3e50;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+}

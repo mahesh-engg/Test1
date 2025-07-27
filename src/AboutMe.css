@@ -1,0 +1,132 @@
+.about-container {
+  position: fixed;
+  top: 70px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=800&fit=crop') center/cover;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-header {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.doctor-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+  flex: 1;
+  min-width: 300px;
+}
+
+.intro h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.intro p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-sections {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ecf0f1;
+  color: #555;
+}
+
+.section li:last-child {
+  border-bottom: none;
+}
+
+.mission-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.mission, .vision {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.mission h3, .vision h3 {
+  border: none;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.personal-note {
+  background: linear-gradient(135deg, #ecf0f1, #bdc3c7);
+  border-left: 4px solid #27ae60;
+}
+
+.personal-note p {
+  color: #2c3e50;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mission-vision {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-header {
+    text-align: center;
+  }
+}

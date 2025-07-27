@@ -1,0 +1,66 @@
+.services-container {
+  position: fixed;
+  top: 70px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200&h=800&fit=crop') center/cover;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.services-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.services-content h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #3498db;
+}
+
+.service-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-card li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ecf0f1;
+  color: #555;
+}
+
+.service-card li:last-child {
+  border-bottom: none;
+}
+
+.highlight {
+  background: #e8f5e8;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #27ae60;
+}

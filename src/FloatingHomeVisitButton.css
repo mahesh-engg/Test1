@@ -1,0 +1,53 @@
+.floating-home-visit-btn {
+  position: fixed;
+  bottom: 120px;
+  left: 20px;
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  cursor: pointer;
+  z-index: 1003;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.85rem;
+  max-width: 180px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.floating-home-visit-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.5);
+  background: linear-gradient(135deg, #f7931e, #ff6b35);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.home-visit-icon {
+  font-size: 1rem;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+}
+
+.home-visit-text {
+  white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+
+
+@media (max-width: 768px) {
+  .floating-home-visit-btn {
+    bottom: 180px;
+    left: 15px;
+    padding: 0.8rem 1.2rem;
+    font-size: 0.8rem;
+    max-width: 180px;
+  }
+  
+  .home-visit-icon {
+    font-size: 1rem;
+  }
+}
